@@ -69,8 +69,7 @@ const Food = () =>{
                 </span>
               </p>
             </div>
-            <div className="h-[35px]" style={{height: div ? "200px" : "35px"}}>
-                <button onClick={() =>{setDiv(!div)}} className="border-none font-semibold">Show more</button>
+            <div className="py-5">
                   {!div? <p className="hidden">{item.description} </p> : 
                   <p className="bg-slate-100 mx-4 px-2 rounded-xl shadow-md shadow-slate-400">{item.description} </p> } 
                
